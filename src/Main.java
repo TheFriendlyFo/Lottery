@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
+    public ArrayList<Integer> getTicket(Lottery game) {}
     public static void main(String[] args) {
         Lottery powerBall = new Lottery("PowerBall", 5, 69, 26);
         ArrayList<Ticket> tickets = new ArrayList<>();

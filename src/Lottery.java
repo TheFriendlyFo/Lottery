@@ -43,6 +43,9 @@ public class Lottery {
 
     public String getName() {return name;}
     public int getRegNums() {return regNums;}
+    public int getRegLower() {return regLower;}
+    public int getPowLower() {return powLower;}
+    public int getPowUpper() {return powUpper;}
     public ArrayList<Integer> draw() {
         ArrayList<Integer> numbers = new ArrayList<>();
         for (int i=0; i<regNums; i++) {
